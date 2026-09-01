@@ -94,10 +94,6 @@ boolean existeNoAprobada = transactions.stream()
 
 ## Datos de Entrenador
 
-- Nombre y Apellido: _____________________________
-- Código de Estudiante: _____________________________
-- Curso: DOSW
-
 ### Nivel 1 — Entrenador Novato
 
 **Ejercicio 01 — Pokémon Tipo Fuego (`filter()`)**
@@ -173,24 +169,3 @@ Ordena por medallas (desc), luego por poder acumulado (desc) y finalmente por no
 
 **Ejercicio 20 — Pokédex Analítica (`groupingBy()` + `counting()`)**
 Construye, en una sola pasada de Streams: cantidad de Pokémon por tipo, por región, cantidad de legendarios, promedio de nivel y el Pokémon más fuerte.
-
-*(Para cada ejercicio de la Semana 2: pegar código implementado, captura de ejecución y explicación breve, siguiendo la misma estructura de la Semana 1.)*
-
----
-
-## Retos Especiales (si aplica)
-
-- [ ] Reto Legendario — Method References
-- [ ] Reto Shiny — Buenas prácticas de commits
-- [ ] Reto Mewtwo — Ejercicio propuesto
-
----
-
-## Estrategia de ramas (Git Flow aplicado)
-
-- Ramas principales obligatorias: `main` y `develop`.
-- Por cada semana: `feature/semana-n-dosw`.
-- Por cada ejercicio: `feature/semana-n-dosw-ejercicio-n`, creada a partir de la rama de la semana.
-- Al terminar un ejercicio: mergear a la rama de la semana y eliminar la rama del ejercicio.
-- Al terminar todos los ejercicios de la semana: Pull Request de `feature/semana-n-dosw` hacia `develop` (esta rama semanal **no se elimina**).
-- Al cierre de cada ciclo: sincronizar `develop` hacia `main`.
