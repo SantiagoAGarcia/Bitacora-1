@@ -4,8 +4,7 @@ Repositorio de la Bitácora Pokémon — Taller de Streams, Lambdas y Programaci
 
 ## Datos personales
 
-- Nombre y Apellido: _____________________________
-- Código de Estudiante: _____________________________
+- Nombre y Apellido: Santiago Garcia
 - Curso: DOSW
 
 ---
