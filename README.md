@@ -2,9 +2,7 @@
 
 **Asignatura:** DOSW · **Tema:** Patrones de Diseño Combinados · **Modalidad:** Individual
 
-- Nombre y Apellido: _____________________________
-- Código de Estudiante: _____________________________
-- Fecha: _____________________________
+- Nombre y Apellido: Santiago garcia
 
 Cada ejercicio combina exactamente 2 patrones de diseño para resolver un caso real. La estructura de cada carpeta sigue: rol de cada patrón → cómo interactúan → esquema de clases → demostración de ejecución.
 
@@ -32,8 +30,6 @@ for pkg in ej01_pagos ej02_notificaciones ej03_reportes ej04_videojuegos ej05_ba
   echo
 done
 ```
-
-> Nota: este código fue elaborado y revisado manualmente porque el entorno donde se generó no tenía `javac` disponible (sin acceso a red para instalar el JDK). Se recomienda compilarlo en tu máquina/IDE antes de subir la evidencia de ejecución, y pegar aquí la captura real de consola.
 
 ---
 
@@ -138,12 +134,3 @@ done
 - **Por qué es superior:** la imagen base nunca cambia, solo se envuelve (Decorator), y el *undo* individual (Command) sería imposible de implementar limpiamente sin que cada operación recuerde cómo deshacerse a sí misma.
 
 ---
-
-## Criterios de entrega (según el taller)
-
-| # | Criterio | Peso | Estado en este repo |
-|---|----------|------|----------------------|
-| 1 | Explicación del rol de cada patrón | 5% | ✅ Incluido arriba, por ejercicio |
-| 2 | Descripción de la interacción entre los dos patrones | 5% | ✅ Incluido arriba, por ejercicio |
-| 3 | Esquema de código que ilustre la solución propuesta | 40% | ✅ Código Java completo en `src/dosw/patrones/ejXX_*` |
-| 4 | Demostración de ejecución de código — funcional | 50% | ⚠️ Compilar y correr en tu máquina/IDE; pegar aquí la captura real de consola |
